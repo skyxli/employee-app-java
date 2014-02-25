@@ -7,11 +7,13 @@ package com.xyzcorp;
  *        email: <a href="mailto:dhinojosa@evolutionnext.com">dhinojosa@evolutionnext.com</a>
  *        tel: 505.363.5832
  */
-public class Employee {
+public class Employee  {
     private double pay;
-
+    private String name;
+   
     public Employee(String firstName, String lastName, double pay) {
         this.pay = pay;
+        name="10";
     }
 
     public double getPay() {
@@ -21,4 +23,6 @@ public class Employee {
     public void setPay(double pay) {
         this.pay = pay;
     }
+    
+    
 }
